@@ -1,0 +1,19 @@
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Flask-WTF
+Flask-Bcrypt
+Flask-CORS
+python-dotenv
+Flask-Migrate       # For handling DB schema changes
+email-validator     # Required by Flask-WTF for email fields
+requests            # For making HTTP requests to external APIs
+gunicorn            # WSGI HTTP Server for running the Flask app in production
+pytest              # For testing the Flask application
+pytest-flask       # Flask integration for pytest
+coverage            # For measuring code coverage in tests
+factory_boy          # For creating test data
+flask-caching       # For caching responses
+flask-mail          # For sending emails
+flask-restful       # For building RESTful APIs
+flask-jwt-extended  # For JWT authentication        

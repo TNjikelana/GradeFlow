@@ -1,1 +1,53 @@
-requirements.txt
+# --- Python / Flask ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Flask-specific
+instance/
+*.db
+*.sqlite3
+.env
+*.env
+
+# Flask migrations (optional)
+migrations/versions/
+
+# --- Node / React ---
+# dependencies
+node_modules/
+
+# build output
+build/
+dist/
+*.log
+
+# local env files
+frontend/.env
+frontend/.env.*.local
+
+# testing
+coverage/
+*.lcov
+
+# React tools
+.cache/
+.npm/
+.yarn/
+.yarn-cache/
+
+# --- IDEs & OS junk ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
