@@ -9,6 +9,7 @@ venv/
 env/
 ENV/
 .venv/
+myenv
 
 # Flask-specific
 instance/
